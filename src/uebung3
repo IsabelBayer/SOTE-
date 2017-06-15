@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>erste Javascript</title>
+<script type="text/javascript">
+function hallo(){
+ var value=document.getElementById("button").value;
+ document.getElementById("neuerText").innerHTML=value;
+ 
+}
+</script>
+</head>
+<body>
+<form action="" method="post">
+<input type="text" id="button" placeholder="hallo" class="hallo">
+<input type="submit"  onclick="hallo()" value="bestaetigen">
+</form>
+<p id="neuerText">alter Text</p>
+</body>
+</html>
